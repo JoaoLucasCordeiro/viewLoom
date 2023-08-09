@@ -16,7 +16,7 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 export const categories = [
   { name: 'Novos', icon: <HomeIcon />, },
-  { name: 'JavaScript', icon: <CodeIcon />, },
+  { name: 'Jovem Nerd', icon:<SportsEsportsIcon />, },
   { name: 'Programação', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
   { name: 'NextJS', icon: <CodeIcon />, },
@@ -24,8 +24,8 @@ export const categories = [
   { name: 'Educação', icon: <SchoolIcon />, },
   { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Filmes', icon: <OndemandVideoIcon />, },
-  { name: 'Jogos', icon: <SportsEsportsIcon />, },
-  { name: 'Lives', icon: <LiveTvIcon />, },
+  { name: 'Games', icon: <SportsEsportsIcon />, },
+  { name: 'Live', icon: <LiveTvIcon />, },
   { name: 'Esportes', icon: <FitnessCenterIcon />, },
   { name: 'Moda', icon: <CheckroomIcon />, },
   { name: 'Beleza', icon: <FaceRetouchingNaturalIcon />, },
@@ -35,8 +35,8 @@ export const categories = [
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
-export const demoChannelUrl = '/channel/UCmXmlB4-HJytD7wek0Uo97A';
-export const demoVideoUrl = '/video/GDa8kZLNhJ4';
-export const demoChannelTitle = 'JavaScript Mastery';
-export const demoVideoTitle = 'Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI';
+export const demoChannelUrl = '/channel//@JovemNerd/featured';
+export const demoVideoUrl = '/video/tk8bQpRHoNs';
+export const demoChannelTitle = 'Jovem Nerd';
+export const demoVideoTitle = 'Nerd Nerf Wars | Arquivo NerdOffice';
 export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
