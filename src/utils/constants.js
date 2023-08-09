@@ -15,7 +15,7 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 // export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'Novos', icon: <HomeIcon />, },
+  { name: 'Novidades', icon: <HomeIcon />, },
   { name: 'Jovem Nerd', icon:<SportsEsportsIcon />, },
   { name: 'Programação', icon: <CodeIcon />, },
   { name: 'ReactJS', icon: <CodeIcon />, },
@@ -30,8 +30,7 @@ export const categories = [
   { name: 'Moda', icon: <CheckroomIcon />, },
   { name: 'Beleza', icon: <FaceRetouchingNaturalIcon />, },
   { name: 'Comédia', icon: <TheaterComedyIcon />, },
-  { name: 'Academia', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'GYM', icon: <FitnessCenterIcon />, }
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';
@@ -39,4 +38,4 @@ export const demoChannelUrl = '/channel//@JovemNerd/featured';
 export const demoVideoUrl = '/video/tk8bQpRHoNs';
 export const demoChannelTitle = 'Jovem Nerd';
 export const demoVideoTitle = 'Nerd Nerf Wars | Arquivo NerdOffice';
-export const demoProfilePicture = 'http://dergipark.org.tr/assets/app/images/buddy_sample.png'
+export const demoProfilePicture = 'https://yt3.googleusercontent.com/ytc/AOPolaQ2br5Gh58dUDrAFr-FYEbgB0198OwIkHqdiPzi=s176-c-k-c0x00ffffff-no-rj-mo'
