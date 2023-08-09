@@ -1,4 +1,4 @@
-# ViewLoom - Plataforma de Vídeos em React com Material UI e API do YouTube
+# ViewLoom - Plataforma de Vídeos em React, Material UI e RapidAPI 
 
 Bem-vindo ao **ViewLoom**, uma plataforma de streaming de vídeos construída em React com Material UI, integrando a poderosa API do YouTube v3 através do Axios. O ViewLoom oferece uma experiência intuitiva para buscar e assistir vídeos do YouTube diretamente em um ambiente personalizado e agradável.
 
