@@ -11,8 +11,8 @@ const Navbar = () => {
       p={2} sx={{ position: 'stick', background: '#000', top: 0, justifyContent: 'space-between' }}>
 
 
-      <Link to="/" style={{ display: 'flex', alingItems: 'center' }}>
-        <img src={logo} alt='Logo' height={130} />
+      <Link to="/" style={{ display: 'flex', alingItems: 'center', marginLeft: '25px' }}>
+        <img src={logo} alt='Logo' height={100} />
       </Link>
 
       <div style={{marginTop: '40px'}}>
