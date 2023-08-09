@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# ViewLoom - Plataforma de Vídeos em React com Material UI e API do YouTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao **ViewLoom**, uma plataforma de streaming de vídeos construída em React com Material UI, integrando a poderosa API do YouTube v3 através do Axios. O ViewLoom oferece uma experiência intuitiva para buscar e assistir vídeos do YouTube diretamente em um ambiente personalizado e agradável.
 
-## Available Scripts
+![ViewLoom Preview](link_para_imagem.png)
 
-In the project directory, you can run:
+## Recursos Principais
 
-### `npm start`
+- **Pesquisa:** Utilize a pesquisa para encontrar facilmente vídeos do YouTube em diversos temas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Reprodução:** Assista a vídeos sem interrupções graças à integração perfeita da API do YouTube.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Interface Intuitiva:** A interface do usuário do Material UI5 proporciona uma experiência agradável e responsiva.
 
-### `npm test`
+- **Marcação de Favoritos:** Marque seus vídeos favoritos para assisti-los novamente mais tarde.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pré-requisitos
 
-### `npm run build`
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js
+- npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação e Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone o repositório do ViewLoom:
 
-### `npm run eject`
+```bash
+git clone https://github.com/JoaoLucasCordeiro/viewloom.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Navegue até o diretório do projeto:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd viewloom
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Instale as dependências do projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+4. Renomeie o arquivo `.env.example` para `.env` e insira sua chave de API do YouTube:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```plaintext
+REACT_APP_YOUTUBE_API_KEY=SuaChaveDeAPIAqui
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Inicie o servidor de desenvolvimento:
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Abra o seu navegador e visite: `http://localhost:3000`
 
-### Analyzing the Bundle Size
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contribuições são bem-vindas! Se você quiser contribuir com melhorias, correções de bugs ou novos recursos, siga estas etapas:
 
-### Making a Progressive Web App
+1. Faça um fork do repositório.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Crie um branch para a sua feature/correção:
 
-### Advanced Configuration
+```bash
+git checkout -b feature/nova-feature
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Faça as alterações desejadas e faça commits claros.
 
-### Deployment
+4. Envie as alterações para o seu repositório fork:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git push origin feature/nova-feature
+```
 
-### `npm run build` fails to minify
+5. Abra um Pull Request explicando detalhadamente as mudanças propostas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Aproveite o ViewLoom e tenha uma ótima experiência assistindo aos seus vídeos favoritos do YouTube! Se tiver alguma dúvida ou problema, não hesite em abrir uma issue no repositório.
+
