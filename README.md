@@ -13,7 +13,6 @@ Bem-vindo ao **ViewLoom**, uma plataforma de streaming de vídeos construída em
 
 - **Interface Intuitiva:** A interface do usuário do Material UI5 proporciona uma experiência agradável e responsiva.
 
-- **Marcação de Favoritos:** Marque seus vídeos favoritos para assisti-los novamente mais tarde.
 
 ## Pré-requisitos
 
